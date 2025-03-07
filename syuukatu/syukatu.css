@@ -1,0 +1,124 @@
+/* リセットCSS（余計なマージンやパディングを削除） */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: #e5fbf7; /* 背景色を優しいピンクに */
+  color: #333;
+  padding: 20px;
+  background-image: url('https://www.transparenttextures.com/patterns/little-boxes.png'), url('https://www.transparenttextures.com/patterns/heart-pattern.png'); /* ここでハート柄の背景画像を設定 */
+  background-repeat: repeat, repeat; /* 両方の背景をリピート */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.9); /* 背景を少し透けさせて軽やかに */
+  border-radius: 0px;
+  padding: 30px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1); /* ソフトな影 */
+}
+
+/* 他のスタイルはそのまま維持 */
+
+
+/* ボタンスタイル */
+.company-btn {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #4ca3af; /* 緑色 */
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2), -4px -4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+/* ボタンホバー時 */
+.company-btn:hover {
+  background-color: #65d0c9;
+}
+
+/* 認証情報のスタイル */
+.credentials {
+  background-color: #fff;
+  
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.credentials p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* メモ入力エリアのスタイル */
+.memo-section {
+  margin: 20px 0;
+}
+
+.memo-input {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+  border: 1px solid #3a3a3a;
+  border-radius: 5px;
+}
+
+.add-memo-btn {
+  width: 100%;
+  padding: 10px;
+ 
+  color: rgb(41, 41, 41);
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.add-memo-btn:hover {
+  background-color: #ffffff;
+}
+
+/* メモ表示エリア */
+.memo-list {
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 20px;
+ 
+  border: 1px solid #ddd;
+}
+
+.memo-item {
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+  border-left: 5px solid #2196F3;
+  position: relative;
+}
+
+.delete-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 18px;
+  color: #f44336;
+  cursor: pointer;
+}
+p1{
+  color: #1c879a;
+}
+.delete-btn:hover {
+  color: #d32f2f;
+}
