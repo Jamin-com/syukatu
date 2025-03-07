@@ -54,7 +54,7 @@ function removeMemoFromStorage(company, memoContent) {
 
 // ページが読み込まれたときにローカルストレージからメモを読み込む
 window.onload = function() {
-  var companies = ['bandai', 'toinks', 'hitachi'];
+  var companies = ['bandai', 'toinks', 'hitachi','kurosur','kurosuc','tohoku','nttfa','nttko',];
   
   companies.forEach(function(company) {
       var memos = JSON.parse(localStorage.getItem(company + '-memos')) || [];
