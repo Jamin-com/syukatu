@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background: #e5fbf7; /* 背景色を優しいピンクに */
+  background: #e5fbf7; 
   color: #333;
   padding: 20px;
   background-image: url('https://www.transparenttextures.com/patterns/little-boxes.png'), url('https://www.transparenttextures.com/patterns/heart-pattern.png'); /* ここでハート柄の背景画像を設定 */
